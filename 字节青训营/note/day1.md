@@ -108,7 +108,7 @@ func main() {
 }
 ```
 - JSON 处理
-    - 保证结构体每个字段首字母为大写（Go 中的公开字段），这个结构体就能用 `json.Marshal` 数列化
+    - 保证结构体每个字段首字母为大写（Go 中的公开字段），这个结构体就能用 `json.Marshal` 序列化
     - `json.Unmarshal` 反数列化到空变量里
     - 如果要输出小写风格，在结构体字段后面加`'json.“xx”'`
 ```go
@@ -239,4 +239,101 @@ func main() {
 }
 ```
 
-# 
+# Go 语言的实战案例
+
+- 学习代码生成
+- 一定要在本地运行一下，理解更透彻
+
+## [猜谜游戏](https://github.com/wangkechun/go-by-example/tree/master/guessing-game)
+
+生成随机数：(见 v2 版本)
+- 需要用 `math/rand` 包
+- `rand.Intn(maxNum)` 生成随机数，范围是 0~`maxNum`
+	- 需要设置随机数种子，否则每次都会生成相同的随机数类(见 v1 版本)
+	- 用时间戳来初始化随机数种子，加上一行` rand.Seed(time.Now().UnixNano)`
+
+读取用户输入：(见 v3 版本)
+- 每个程序执行时都会打开几个文件，包括 Stdin、Stdout 等
+- `os.Stdin` 得到
+- `bufio.NewReader` 将 Stdin 转化为只读的流
+- `reader.ReadString('\n')` 读取一行
+- `input = strings.Trim(input, "\r\n")` 去掉Tab、换行符
+- `strconv.Atoi(input)` 转换为数字
+
+实现判断逻辑（见 v4 版本）、实现游戏循环（见 v5 版本）
+
+## [在线词典介绍](https://github.com/wangkechun/go-by-example/tree/master/simpledict)
+
+学习如何用 Go 语言发送 http 请求、解析 json 、如何使用代码生成提高开发效率
+
+抓包
+- 在网站中右键点“检查”（以[彩云翻译app](https://fanyi.caiyunapp.com/)为例）
+- 点翻译，在 Network 的 name 中找到 `dict`（需要是Request Method 为 POST 的），在Payload 和 Preview 中可以看到相关信息
+-  右键 dict 选择 copy as curl（有 bash 选 bash）得到 curl
+
+生成代码
+- [代码生成网址](https://curlconverter.com/go/)，粘贴复制的 curl 请求
+- copy Golang 代码，把转义导致的编译错误的代码删掉即可
+
+生成代码解读（代码见 v1 版本）
+```go
+var data = strings.NewReader(`{"trans_type":"en2zh","source":"good"}`)
+req, err := http.NewRequest("POST", "https://api.interpreter.caiyunai.com/v1/dict", data)
+```
+- 创建请求，3个参数：POST、curl、data
+- data 是一个流，将输入的字符串转换成流，只需要占用很少的内存去创建请求
+- `req.Header.Set()` 设置请求头
+- `resp, err := client.Do(req)` 发起请求
+	- resp 是个流，为了防止资源泄露，需要 `defer resp.Body.Close()` 手动关闭，defer 会在函数结束后从下往上触发
+- `bodyText, err := ioutil.ReadAll(resp.Body)` 将流读成 byte 数组
+
+生成 request body（v2 版本）
+- 将 json 序列化，需要构造结构体，与 json 的结构是对应的，`json.Marshal()` 序列化为一个 byte 数组
+- `json.Marshal()` 返回的是 byte 数组，所以换成 `bytes.NewReader()`
+
+解析（v3 版本）
+- [代码生成](https://oktools.net/json2go)，将 网站 Priview 中的 json 复制上去 转换-嵌套
+```go
+var dictResponse DictResponse
+	err = json.Unmarshal(bodyText, &dictResponse)
+	if err != nil {
+		log.Fatal(err)
+	}
+	fmt.Printf("%#v\n", dictResponse)
+```
+- 用 `json.Unmarshal(bodyText, &dictResponse)` 反序列化到变量中
+- %#v 详细打印结构体
+
+打印结果（v4 版本）
+```go
+if resp.StatusCode != 200 {
+	log.Fatal("bad StatusCode:", resp.StatusCode, "body", string(bodyText))
+}
+```
+- 防御性编程，检测返回的 response 是正确的
+
+## [SOCKS5代理](https://github.com/wangkechun/go-by-example/tree/master/proxy)
+
+- TCP echo server 源代码（v1 版本）
+	- 用来测试 server 正确性，发送啥回复啥
+- auth（v2 阶段）
+	- 实现认证阶段（auth 函数）
+- 请求阶段 （v3 版本）
+- relay 阶段（v4 版本）
+	- 用 `context.WithCancel(context.Background())` 创建 ctx
+	- `<-ctx.Done()` 等待ctx 执行完成（是任何一个func（）中 cancel（）函数调用的时机）
+```go
+ctx, cancel := context.WithCancel(context.Background())
+	defer cancel()
+
+	go func() {
+		_, _ = io.Copy(dest, reader)
+		cancel()
+	}()
+	go func() {
+		_, _ = io.Copy(conn, dest)
+		cancel()
+	}()
+
+	<-ctx.Done()
+```
