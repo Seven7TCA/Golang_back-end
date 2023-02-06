@@ -10,7 +10,7 @@
 - 设计并实现一个规则引擎 - `YoungEngine`
 - 结合之前所学课程，实现一个Web版规则引擎(自行实现)
 
-[手册](https://juejin.cn/post/7193363381804335161/#heading-15)
+[手册-3](https://juejin.cn/post/7193363381804335161/#heading-15)
 
 # 认识规则引擎
 
