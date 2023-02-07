@@ -1,0 +1,412 @@
+2023-01-03 11:05:10.389 [32mINFO [m[background-preinit] [36morg.hibernate.validator.internal.util.Version[m : HV000001: Hibernate Validator 5.2.4.Final
+2023-01-03 11:05:10.433 [32mINFO [m[main] [36mcom.camp.promotion.HPromotionApplication[m : Starting HPromotionApplication using Java 11.0.8 on ryan with PID 1042 (/Users/Ryan/Documents/codespace/h_promotion/target/classes started by bytedance in /Users/Ryan/Documents/codespace/h_promotion)
+2023-01-03 11:05:10.437 [32mINFO [m[main] [36mcom.camp.promotion.HPromotionApplication[m : No active profile set, falling back to 1 default profile: "default"
+2023-01-03 11:05:12.301 [32mINFO [m[main] [36morg.apache.coyote.http11.Http11NioProtocol[m : Initializing ProtocolHandler ["http-nio-8999"]
+2023-01-03 11:05:12.302 [32mINFO [m[main] [36morg.apache.catalina.core.StandardService[m : Starting service [Tomcat]
+2023-01-03 11:05:12.302 [32mINFO [m[main] [36morg.apache.catalina.core.StandardEngine[m : Starting Servlet engine: [Apache Tomcat/9.0.69]
+2023-01-03 11:05:12.565 [32mINFO [m[main] [36morg.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/][m : Initializing Spring embedded WebApplicationContext
+2023-01-03 11:05:12.692 [32mINFO [m[main] [36mcom.zaxxer.hikari.HikariDataSource[m : h_promotion - Starting...
+2023-01-03 11:05:12.979 [32mINFO [m[main] [36mcom.zaxxer.hikari.pool.HikariPool[m : h_promotion - Added connection com.mysql.cj.jdbc.ConnectionImpl@6b8bdcc6
+2023-01-03 11:05:12.982 [32mINFO [m[main] [36mcom.zaxxer.hikari.HikariDataSource[m : h_promotion - Start completed.
+2023-01-03 11:05:13.042 [32mINFO [m[main] [36morg.hibernate.jpa.internal.util.LogHelper[m : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-01-03 11:05:13.105 [32mINFO [m[main] [36morg.hibernate.Version[m : HHH000412: Hibernate ORM core version 5.6.14.Final
+2023-01-03 11:05:13.281 [32mINFO [m[main] [36morg.hibernate.annotations.common.Version[m : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-01-03 11:05:13.382 [32mINFO [m[main] [36morg.hibernate.dialect.Dialect[m : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-01-03 11:05:13.521 [32mINFO [m[main] [36morg.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator[m : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-01-03 11:05:15.647 [32mINFO [m[main] [36morg.apache.coyote.http11.Http11NioProtocol[m : Starting ProtocolHandler ["http-nio-8999"]
+2023-01-03 11:05:15.696 [32mINFO [m[main] [36mcom.camp.promotion.HPromotionApplication[m : Started HPromotionApplication in 5.686 seconds (JVM running for 7.899)
+2023-01-03 11:09:28.856 [32mINFO [m[http-nio-8999-exec-1] [36morg.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/][m : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-03 11:13:36.926 [32mINFO [m[Thread-4] [36mcom.camp.promotion.mq.OrderPullConsumer[m : stop consumer!
+2023-01-03 11:13:39.103 [32mINFO [m[SpringApplicationShutdownHook] [36mcom.zaxxer.hikari.HikariDataSource[m : h_promotion - Shutdown initiated...
+2023-01-03 11:13:39.112 [32mINFO [m[SpringApplicationShutdownHook] [36mcom.zaxxer.hikari.HikariDataSource[m : h_promotion - Shutdown completed.
+2023-01-03 11:13:44.763 [32mINFO [m[background-preinit] [36morg.hibernate.validator.internal.util.Version[m : HV000001: Hibernate Validator 5.2.4.Final
+2023-01-03 11:13:44.799 [32mINFO [m[main] [36mcom.camp.promotion.HPromotionApplication[m : Starting HPromotionApplication using Java 11.0.8 on ryan with PID 2663 (/Users/Ryan/Documents/codespace/h_promotion/target/classes started by bytedance in /Users/Ryan/Documents/codespace/h_promotion)
+2023-01-03 11:13:44.804 [32mINFO [m[main] [36mcom.camp.promotion.HPromotionApplication[m : No active profile set, falling back to 1 default profile: "default"
+2023-01-03 11:13:46.377 [32mINFO [m[main] [36morg.apache.coyote.http11.Http11NioProtocol[m : Initializing ProtocolHandler ["http-nio-8999"]
+2023-01-03 11:13:46.378 [32mINFO [m[main] [36morg.apache.catalina.core.StandardService[m : Starting service [Tomcat]
+2023-01-03 11:13:46.378 [32mINFO [m[main] [36morg.apache.catalina.core.StandardEngine[m : Starting Servlet engine: [Apache Tomcat/9.0.69]
+2023-01-03 11:13:46.538 [32mINFO [m[main] [36morg.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/][m : Initializing Spring embedded WebApplicationContext
+2023-01-03 11:13:46.645 [32mINFO [m[main] [36mcom.zaxxer.hikari.HikariDataSource[m : h_promotion - Starting...
+2023-01-03 11:13:46.908 [32mINFO [m[main] [36mcom.zaxxer.hikari.pool.HikariPool[m : h_promotion - Added connection com.mysql.cj.jdbc.ConnectionImpl@7548e1fb
+2023-01-03 11:13:46.911 [32mINFO [m[main] [36mcom.zaxxer.hikari.HikariDataSource[m : h_promotion - Start completed.
+2023-01-03 11:13:46.966 [32mINFO [m[main] [36morg.hibernate.jpa.internal.util.LogHelper[m : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-01-03 11:13:47.031 [32mINFO [m[main] [36morg.hibernate.Version[m : HHH000412: Hibernate ORM core version 5.6.14.Final
+2023-01-03 11:13:47.185 [32mINFO [m[main] [36morg.hibernate.annotations.common.Version[m : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-01-03 11:13:47.299 [32mINFO [m[main] [36morg.hibernate.dialect.Dialect[m : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-01-03 11:13:47.466 [32mINFO [m[main] [36morg.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator[m : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-01-03 11:13:49.762 [32mINFO [m[main] [36morg.apache.coyote.http11.Http11NioProtocol[m : Starting ProtocolHandler ["http-nio-8999"]
+2023-01-03 11:13:49.794 [32mINFO [m[main] [36mcom.camp.promotion.HPromotionApplication[m : Started HPromotionApplication in 5.387 seconds (JVM running for 6.697)
+2023-01-03 11:13:57.738 [32mINFO [m[http-nio-8999-exec-1] [36morg.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/][m : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-03 11:14:08.563 [32mINFO [m[Thread-4] [36mcom.camp.promotion.mq.OrderPullConsumer[m : stop consumer!
+2023-01-03 11:14:12.722 [32mINFO [m[background-preinit] [36morg.hibernate.validator.internal.util.Version[m : HV000001: Hibernate Validator 5.2.4.Final
+2023-01-03 11:14:12.754 [32mINFO [m[main] [36mcom.camp.promotion.HPromotionApplication[m : Starting HPromotionApplication using Java 11.0.8 on ryan with PID 2685 (/Users/Ryan/Documents/codespace/h_promotion/target/classes started by bytedance in /Users/Ryan/Documents/codespace/h_promotion)
+2023-01-03 11:14:12.758 [32mINFO [m[main] [36mcom.camp.promotion.HPromotionApplication[m : No active profile set, falling back to 1 default profile: "default"
+2023-01-03 11:14:15.369 [32mINFO [m[main] [36morg.apache.coyote.http11.Http11NioProtocol[m : Initializing ProtocolHandler ["http-nio-8999"]
+2023-01-03 11:14:15.381 [32mINFO [m[main] [36morg.apache.catalina.core.StandardService[m : Starting service [Tomcat]
+2023-01-03 11:14:15.381 [32mINFO [m[main] [36morg.apache.catalina.core.StandardEngine[m : Starting Servlet engine: [Apache Tomcat/9.0.69]
+2023-01-03 11:14:15.587 [32mINFO [m[main] [36morg.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/][m : Initializing Spring embedded WebApplicationContext
+2023-01-03 11:14:15.712 [32mINFO [m[main] [36mcom.zaxxer.hikari.HikariDataSource[m : h_promotion - Starting...
+2023-01-03 11:14:16.005 [32mINFO [m[main] [36mcom.zaxxer.hikari.pool.HikariPool[m : h_promotion - Added connection com.mysql.cj.jdbc.ConnectionImpl@531a716c
+2023-01-03 11:14:16.007 [32mINFO [m[main] [36mcom.zaxxer.hikari.HikariDataSource[m : h_promotion - Start completed.
+2023-01-03 11:14:16.054 [32mINFO [m[main] [36morg.hibernate.jpa.internal.util.LogHelper[m : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-01-03 11:14:16.106 [32mINFO [m[main] [36morg.hibernate.Version[m : HHH000412: Hibernate ORM core version 5.6.14.Final
+2023-01-03 11:14:16.232 [32mINFO [m[main] [36morg.hibernate.annotations.common.Version[m : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-01-03 11:14:16.338 [32mINFO [m[main] [36morg.hibernate.dialect.Dialect[m : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-01-03 11:14:16.519 [32mINFO [m[main] [36morg.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator[m : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-01-03 11:14:18.109 [32mINFO [m[main] [36morg.apache.coyote.http11.Http11NioProtocol[m : Starting ProtocolHandler ["http-nio-8999"]
+2023-01-03 11:14:18.143 [32mINFO [m[main] [36mcom.camp.promotion.HPromotionApplication[m : Started HPromotionApplication in 5.806 seconds (JVM running for 7.303)
+2023-01-03 11:14:23.204 [32mINFO [m[http-nio-8999-exec-1] [36morg.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/][m : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-03 11:15:26.372 [32mINFO [m[Thread-4] [36mcom.camp.promotion.mq.OrderPullConsumer[m : stop consumer!
+2023-01-03 11:15:28.538 [32mINFO [m[SpringApplicationShutdownHook] [36mcom.zaxxer.hikari.HikariDataSource[m : h_promotion - Shutdown initiated...
+2023-01-03 11:15:28.547 [32mINFO [m[SpringApplicationShutdownHook] [36mcom.zaxxer.hikari.HikariDataSource[m : h_promotion - Shutdown completed.
+2023-01-03 11:15:53.969 [32mINFO [m[background-preinit] [36morg.hibernate.validator.internal.util.Version[m : HV000001: Hibernate Validator 5.2.4.Final
+2023-01-03 11:15:53.992 [32mINFO [m[main] [36mcom.camp.promotion.HPromotionApplicationTests[m : Starting HPromotionApplicationTests using Java 11.0.8 on ryan with PID 2759 (started by bytedance in /Users/Ryan/Documents/codespace/h_promotion)
+2023-01-03 11:15:53.995 [32mINFO [m[main] [36mcom.camp.promotion.HPromotionApplicationTests[m : No active profile set, falling back to 1 default profile: "default"
+2023-01-03 11:15:55.708 [32mINFO [m[main] [36mcom.zaxxer.hikari.HikariDataSource[m : h_promotion - Starting...
+2023-01-03 11:15:56.090 [32mINFO [m[main] [36mcom.zaxxer.hikari.pool.HikariPool[m : h_promotion - Added connection com.mysql.cj.jdbc.ConnectionImpl@70543cae
+2023-01-03 11:15:56.092 [32mINFO [m[main] [36mcom.zaxxer.hikari.HikariDataSource[m : h_promotion - Start completed.
+2023-01-03 11:15:56.154 [32mINFO [m[main] [36morg.hibernate.jpa.internal.util.LogHelper[m : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-01-03 11:15:56.224 [32mINFO [m[main] [36morg.hibernate.Version[m : HHH000412: Hibernate ORM core version 5.6.14.Final
+2023-01-03 11:15:56.470 [32mINFO [m[main] [36morg.hibernate.annotations.common.Version[m : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-01-03 11:15:56.638 [32mINFO [m[main] [36morg.hibernate.dialect.Dialect[m : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-01-03 11:15:56.831 [32mINFO [m[main] [36morg.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator[m : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-01-03 11:15:59.007 [32mINFO [m[main] [36mcom.camp.promotion.HPromotionApplicationTests[m : Started HPromotionApplicationTests in 5.324 seconds (JVM running for 6.722)
+2023-01-03 11:15:59.298 [32mINFO [m[Thread-4] [36mcom.camp.promotion.mq.OrderPullConsumer[m : stop consumer!
+2023-01-03 11:15:59.318 [32mINFO [m[SpringApplicationShutdownHook] [36mcom.zaxxer.hikari.HikariDataSource[m : h_promotion - Shutdown initiated...
+2023-01-03 11:15:59.330 [32mINFO [m[SpringApplicationShutdownHook] [36mcom.zaxxer.hikari.HikariDataSource[m : h_promotion - Shutdown completed.
+2023-01-03 11:30:25.862 [32mINFO [m[background-preinit] [36morg.hibernate.validator.internal.util.Version[m : HV000001: Hibernate Validator 5.2.4.Final
+2023-01-03 11:30:25.982 [32mINFO [m[main] [36mcom.camp.promotion.HPromotionApplication[m : Starting HPromotionApplication using Java 11.0.8 on ryan with PID 3680 (/Users/Ryan/Documents/codespace/h_promotion/target/classes started by bytedance in /Users/Ryan/Documents/codespace/h_promotion)
+2023-01-03 11:30:25.987 [32mINFO [m[main] [36mcom.camp.promotion.HPromotionApplication[m : No active profile set, falling back to 1 default profile: "default"
+2023-01-03 11:30:27.708 [32mINFO [m[main] [36morg.apache.coyote.http11.Http11NioProtocol[m : Initializing ProtocolHandler ["http-nio-8999"]
+2023-01-03 11:30:27.709 [32mINFO [m[main] [36morg.apache.catalina.core.StandardService[m : Starting service [Tomcat]
+2023-01-03 11:30:27.709 [32mINFO [m[main] [36morg.apache.catalina.core.StandardEngine[m : Starting Servlet engine: [Apache Tomcat/9.0.69]
+2023-01-03 11:30:27.863 [32mINFO [m[main] [36morg.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/][m : Initializing Spring embedded WebApplicationContext
+2023-01-03 11:30:27.995 [32mINFO [m[main] [36mcom.zaxxer.hikari.HikariDataSource[m : h_promotion - Starting...
+2023-01-03 11:30:28.295 [32mINFO [m[main] [36mcom.zaxxer.hikari.pool.HikariPool[m : h_promotion - Added connection com.mysql.cj.jdbc.ConnectionImpl@e521067
+2023-01-03 11:30:28.297 [32mINFO [m[main] [36mcom.zaxxer.hikari.HikariDataSource[m : h_promotion - Start completed.
+2023-01-03 11:30:28.344 [32mINFO [m[main] [36morg.hibernate.jpa.internal.util.LogHelper[m : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-01-03 11:30:28.410 [32mINFO [m[main] [36morg.hibernate.Version[m : HHH000412: Hibernate ORM core version 5.6.14.Final
+2023-01-03 11:30:28.541 [32mINFO [m[main] [36morg.hibernate.annotations.common.Version[m : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-01-03 11:30:28.642 [32mINFO [m[main] [36morg.hibernate.dialect.Dialect[m : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-01-03 11:30:28.831 [32mINFO [m[main] [36morg.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator[m : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-01-03 11:30:31.037 [32mINFO [m[main] [36morg.apache.coyote.http11.Http11NioProtocol[m : Starting ProtocolHandler ["http-nio-8999"]
+2023-01-03 11:30:31.068 [32mINFO [m[main] [36mcom.camp.promotion.HPromotionApplication[m : Started HPromotionApplication in 5.758 seconds (JVM running for 7.181)
+2023-01-03 11:30:57.902 [32mINFO [m[http-nio-8999-exec-1] [36morg.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/][m : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-03 11:30:58.071 [32mINFO [m[http-nio-8999-exec-1] [36mcom.camp.promotion.limit.RateLimitAspect[m : rate limit key = PromotionController_createOrder
+2023-01-03 11:30:58.347 [32mINFO [m[http-nio-8999-exec-2] [36mcom.camp.promotion.limit.RateLimitAspect[m : rate limit key = PromotionController_createOrder
+2023-01-03 11:30:58.498 [32mINFO [m[http-nio-8999-exec-1] [36mcom.camp.promotion.service.LocalCacheService[m : get HPromoProductModel from local cache, key = promo_product_11867795771883521_11883019954552833_11873505595359240, res is null true
+2023-01-03 11:30:58.512 [32mINFO [m[http-nio-8999-exec-2] [36mcom.camp.promotion.service.LocalCacheService[m : get HPromoProductModel from local cache, key = promo_product_11867795771883521_11883019954552833_11873505595359240, res is null true
+2023-01-03 11:30:58.567 [32mINFO [m[http-nio-8999-exec-2] [36mcom.camp.promotion.service.LocalCacheService[m : get HPromoProductModel from local cache, key = promo_product_11867795771883521_11883019954552833_11873505595359240, res is null true
+2023-01-03 11:30:58.604 [32mINFO [m[http-nio-8999-exec-2] [36mcom.camp.promotion.service.LocalCacheService[m : get HPromoProductModel from local cache, key = promo_product_11867795771883521_11883019954552833_11873505595359240, res is null true
+2023-01-03 11:30:58.638 [32mINFO [m[http-nio-8999-exec-2] [36mcom.camp.promotion.service.LocalCacheService[m : get HPromoProductModel from local cache, key = promo_product_11867795771883521_11883019954552833_11873505595359240, res is null true
+2023-01-03 11:30:58.677 [32mINFO [m[http-nio-8999-exec-2] [36mcom.camp.promotion.service.LocalCacheService[m : get HPromoProductModel from local cache, key = promo_product_11867795771883521_11883019954552833_11873505595359240, res is null true
+2023-01-03 11:30:58.737 [32mINFO [m[http-nio-8999-exec-2] [36mcom.camp.promotion.service.LocalCacheService[m : get HPromoProductModel from local cache, key = promo_product_11867795771883521_11883019954552833_11873505595359240, res is null false
+2023-01-03 11:30:58.853 [32mINFO [m[http-nio-8999-exec-3] [36mcom.camp.promotion.limit.RateLimitAspect[m : rate limit key = PromotionController_createOrder
+2023-01-03 11:30:58.886 [32mINFO [m[http-nio-8999-exec-3] [36mcom.camp.promotion.service.LocalCacheService[m : get HPromoProductModel from local cache, key = promo_product_11867795771883521_11883019954552833_11873505595359240, res is null false
+2023-01-03 11:30:58.928 [32mINFO [m[thread-consumer-start] [36mcom.camp.promotion.mq.OrderPullConsumer[m : start consumer msg size = 1
+2023-01-03 11:30:58.979 [32mINFO [m[http-nio-8999-exec-4] [36mcom.camp.promotion.limit.RateLimitAspect[m : rate limit key = PromotionController_createOrder
+2023-01-03 11:30:58.979 [32mINFO [m[http-nio-8999-exec-6] [36mcom.camp.promotion.limit.RateLimitAspect[m : rate limit key = PromotionController_createOrder
+2023-01-03 11:30:58.979 [32mINFO [m[http-nio-8999-exec-5] [36mcom.camp.promotion.limit.RateLimitAspect[m : rate limit key = PromotionController_createOrder
+2023-01-03 11:30:58.993 [32mINFO [m[http-nio-8999-exec-6] [36mcom.camp.promotion.service.LocalCacheService[m : get HPromoProductModel from local cache, key = promo_product_11867795771883521_11883019954552833_11873505595359240, res is null false
+2023-01-03 11:30:58.993 [32mINFO [m[http-nio-8999-exec-5] [36mcom.camp.promotion.service.LocalCacheService[m : get HPromoProductModel from local cache, key = promo_product_11867795771883521_11883019954552833_11873505595359240, res is null false
+2023-01-03 11:30:58.993 [32mINFO [m[http-nio-8999-exec-4] [36mcom.camp.promotion.service.LocalCacheService[m : get HPromoProductModel from local cache, key = promo_product_11867795771883521_11883019954552833_11873505595359240, res is null false
+2023-01-03 11:30:59.040 [32mINFO [m[thread-consumer-start] [36mcom.camp.promotion.mq.OrderPullConsumer[m : start consumer msg size = 1
+2023-01-03 11:30:59.062 [32mINFO [m[thread-consumer-start] [36mcom.camp.promotion.mq.OrderPullConsumer[m : start consumer msg size = 1
+2023-01-03 11:30:59.071 [32mINFO [m[http-nio-8999-exec-8] [36mcom.camp.promotion.limit.RateLimitAspect[m : rate limit key = PromotionController_createOrder
+2023-01-03 11:30:59.071 [32mINFO [m[http-nio-8999-exec-7] [36mcom.camp.promotion.limit.RateLimitAspect[m : rate limit key = PromotionController_createOrder
+2023-01-03 11:30:59.071 [32mINFO [m[http-nio-8999-exec-9] [36mcom.camp.promotion.limit.RateLimitAspect[m : rate limit key = PromotionController_createOrder
+2023-01-03 11:30:59.085 [32mINFO [m[http-nio-8999-exec-9] [36mcom.camp.promotion.service.LocalCacheService[m : get HPromoProductModel from local cache, key = promo_product_11867795771883521_11883019954552833_11873505595359240, res is null false
+2023-01-03 11:30:59.085 [32mINFO [m[http-nio-8999-exec-8] [36mcom.camp.promotion.service.LocalCacheService[m : get HPromoProductModel from local cache, key = promo_product_11867795771883521_11883019954552833_11873505595359240, res is null false
+2023-01-03 11:30:59.086 [32mINFO [m[http-nio-8999-exec-7] [36mcom.camp.promotion.service.LocalCacheService[m : get HPromoProductModel from local cache, key = promo_product_11867795771883521_11883019954552833_11873505595359240, res is null false
+2023-01-03 11:30:59.161 [32mINFO [m[http-nio-8999-exec-10] [36mcom.camp.promotion.limit.RateLimitAspect[m : rate limit key = PromotionController_createOrder
+2023-01-03 11:30:59.161 [32mINFO [m[http-nio-8999-exec-11] [36mcom.camp.promotion.limit.RateLimitAspect[m : rate limit key = PromotionController_createOrder
+2023-01-03 11:30:59.161 [32mINFO [m[http-nio-8999-exec-12] [36mcom.camp.promotion.limit.RateLimitAspect[m : rate limit key = PromotionController_createOrder
+2023-01-03 11:30:59.176 [32mINFO [m[http-nio-8999-exec-12] [36mcom.camp.promotion.service.LocalCacheService[m : get HPromoProductModel from local cache, key = promo_product_11867795771883521_11883019954552833_11873505595359240, res is null false
+2023-01-03 11:30:59.176 [32mINFO [m[http-nio-8999-exec-11] [36mcom.camp.promotion.service.LocalCacheService[m : get HPromoProductModel from local cache, key = promo_product_11867795771883521_11883019954552833_11873505595359240, res is null false
+2023-01-03 11:30:59.176 [32mINFO [m[http-nio-8999-exec-10] [36mcom.camp.promotion.service.LocalCacheService[m : get HPromoProductModel from local cache, key = promo_product_11867795771883521_11883019954552833_11873505595359240, res is null false
+2023-01-03 11:30:59.222 [32mINFO [m[thread-consumer-start] [36mcom.camp.promotion.mq.OrderPullConsumer[m : start consumer msg size = 2
+2023-01-03 11:30:59.250 [32mINFO [m[http-nio-8999-exec-15] [36mcom.camp.promotion.limit.RateLimitAspect[m : rate limit key = PromotionController_createOrder
+2023-01-03 11:30:59.250 [32mINFO [m[http-nio-8999-exec-13] [36mcom.camp.promotion.limit.RateLimitAspect[m : rate limit key = PromotionController_createOrder
+2023-01-03 11:30:59.250 [32mINFO [m[http-nio-8999-exec-14] [36mcom.camp.promotion.limit.RateLimitAspect[m : rate limit key = PromotionController_createOrder
+2023-01-03 11:30:59.263 [32mINFO [m[http-nio-8999-exec-13] [36mcom.camp.promotion.service.LocalCacheService[m : get HPromoProductModel from local cache, key = promo_product_11867795771883521_11883019954552833_11873505595359240, res is null false
+2023-01-03 11:30:59.263 [32mINFO [m[http-nio-8999-exec-14] [36mcom.camp.promotion.service.LocalCacheService[m : get HPromoProductModel from local cache, key = promo_product_11867795771883521_11883019954552833_11873505595359240, res is null false
+2023-01-03 11:30:59.264 [32mINFO [m[http-nio-8999-exec-15] [36mcom.camp.promotion.service.LocalCacheService[m : get HPromoProductModel from local cache, key = promo_product_11867795771883521_11883019954552833_11873505595359240, res is null false
+2023-01-03 11:30:59.337 [32mINFO [m[http-nio-8999-exec-17] [36mcom.camp.promotion.limit.RateLimitAspect[m : rate limit key = PromotionController_createOrder
+2023-01-03 11:30:59.337 [32mINFO [m[http-nio-8999-exec-16] [36mcom.camp.promotion.limit.RateLimitAspect[m : rate limit key = PromotionController_createOrder
+2023-01-03 11:30:59.339 [32mINFO [m[http-nio-8999-exec-18] [36mcom.camp.promotion.limit.RateLimitAspect[m : rate limit key = PromotionController_createOrder
+2023-01-03 11:30:59.349 [32mINFO [m[http-nio-8999-exec-19] [36mcom.camp.promotion.limit.RateLimitAspect[m : rate limit key = PromotionController_createOrder
+2023-01-03 11:30:59.352 [32mINFO [m[http-nio-8999-exec-17] [36mcom.camp.promotion.service.LocalCacheService[m : get HPromoProductModel from local cache, key = promo_product_11867795771883521_11883019954552833_11873505595359240, res is null false
+2023-01-03 11:30:59.352 [32mINFO [m[http-nio-8999-exec-16] [36mcom.camp.promotion.service.LocalCacheService[m : get HPromoProductModel from local cache, key = promo_product_11867795771883521_11883019954552833_11873505595359240, res is null false
+2023-01-03 11:30:59.352 [32mINFO [m[http-nio-8999-exec-18] [36mcom.camp.promotion.service.LocalCacheService[m : get HPromoProductModel from local cache, key = promo_product_11867795771883521_11883019954552833_11873505595359240, res is null false
+2023-01-03 11:30:59.363 [32mINFO [m[http-nio-8999-exec-19] [36mcom.camp.promotion.service.LocalCacheService[m : get HPromoProductModel from local cache, key = promo_product_11867795771883521_11883019954552833_11873505595359240, res is null false
+2023-01-03 11:30:59.426 [32mINFO [m[http-nio-8999-exec-20] [36mcom.camp.promotion.limit.RateLimitAspect[m : rate limit key = PromotionController_createOrder
+2023-01-03 11:30:59.427 [32mINFO [m[http-nio-8999-exec-21] [36mcom.camp.promotion.limit.RateLimitAspect[m : rate limit key = PromotionController_createOrder
+2023-01-03 11:30:59.428 [32mINFO [m[http-nio-8999-exec-22] [36mcom.camp.promotion.limit.RateLimitAspect[m : rate limit key = PromotionController_createOrder
+2023-01-03 11:30:59.439 [32mINFO [m[http-nio-8999-exec-23] [36mcom.camp.promotion.limit.RateLimitAspect[m : rate limit key = PromotionController_createOrder
+2023-01-03 11:30:59.439 [32mINFO [m[http-nio-8999-exec-20] [36mcom.camp.promotion.service.LocalCacheService[m : get HPromoProductModel from local cache, key = promo_product_11867795771883521_11883019954552833_11873505595359240, res is null false
+2023-01-03 11:30:59.440 [32mINFO [m[http-nio-8999-exec-21] [36mcom.camp.promotion.service.LocalCacheService[m : get HPromoProductModel from local cache, key = promo_product_11867795771883521_11883019954552833_11873505595359240, res is null false
+2023-01-03 11:30:59.441 [32mINFO [m[http-nio-8999-exec-22] [36mcom.camp.promotion.service.LocalCacheService[m : get HPromoProductModel from local cache, key = promo_product_11867795771883521_11883019954552833_11873505595359240, res is null false
+2023-01-03 11:30:59.452 [32mINFO [m[http-nio-8999-exec-23] [36mcom.camp.promotion.service.LocalCacheService[m : get HPromoProductModel from local cache, key = promo_product_11867795771883521_11883019954552833_11873505595359240, res is null false
+2023-01-03 11:30:59.484 [32mINFO [m[thread-consumer-start] [36mcom.camp.promotion.mq.OrderPullConsumer[m : start consumer msg size = 1
+2023-01-03 11:30:59.513 [32mINFO [m[http-nio-8999-exec-25] [36mcom.camp.promotion.limit.RateLimitAspect[m : rate limit key = PromotionController_createOrder
+2023-01-03 11:30:59.513 [32mINFO [m[http-nio-8999-exec-24] [36mcom.camp.promotion.limit.RateLimitAspect[m : rate limit key = PromotionController_createOrder
+2023-01-03 11:30:59.513 [32mINFO [m[http-nio-8999-exec-26] [36mcom.camp.promotion.limit.RateLimitAspect[m : rate limit key = PromotionController_createOrder
+2023-01-03 11:30:59.527 [32mINFO [m[http-nio-8999-exec-26] [36mcom.camp.promotion.service.LocalCacheService[m : get HPromoProductModel from local cache, key = promo_product_11867795771883521_11883019954552833_11873505595359240, res is null false
+2023-01-03 11:30:59.527 [32mINFO [m[http-nio-8999-exec-25] [36mcom.camp.promotion.service.LocalCacheService[m : get HPromoProductModel from local cache, key = promo_product_11867795771883521_11883019954552833_11873505595359240, res is null false
+2023-01-03 11:30:59.527 [32mINFO [m[http-nio-8999-exec-24] [36mcom.camp.promotion.service.LocalCacheService[m : get HPromoProductModel from local cache, key = promo_product_11867795771883521_11883019954552833_11873505595359240, res is null false
+2023-01-03 11:30:59.528 [32mINFO [m[http-nio-8999-exec-27] [36mcom.camp.promotion.limit.RateLimitAspect[m : rate limit key = PromotionController_createOrder
+2023-01-03 11:30:59.539 [32mINFO [m[thread-consumer-start] [36mcom.camp.promotion.mq.OrderPullConsumer[m : start consumer msg size = 1
+2023-01-03 11:30:59.541 [32mINFO [m[http-nio-8999-exec-27] [36mcom.camp.promotion.service.LocalCacheService[m : get HPromoProductModel from local cache, key = promo_product_11867795771883521_11883019954552833_11873505595359240, res is null false
+2023-01-03 11:30:59.580 [32mINFO [m[thread-consumer-start] [36mcom.camp.promotion.mq.OrderPullConsumer[m : start consumer msg size = 1
+2023-01-03 11:30:59.589 [32mINFO [m[thread-consumer-start] [36mcom.camp.promotion.mq.OrderPullConsumer[m : start consumer msg size = 1
+2023-01-03 11:30:59.601 [32mINFO [m[http-nio-8999-exec-28] [36mcom.camp.promotion.limit.RateLimitAspect[m : rate limit key = PromotionController_createOrder
+2023-01-03 11:30:59.601 [32mINFO [m[http-nio-8999-exec-30] [36mcom.camp.promotion.limit.RateLimitAspect[m : rate limit key = PromotionController_createOrder
+2023-01-03 11:30:59.601 [32mINFO [m[http-nio-8999-exec-29] [36mcom.camp.promotion.limit.RateLimitAspect[m : rate limit key = PromotionController_createOrder
+2023-01-03 11:30:59.614 [32mINFO [m[http-nio-8999-exec-28] [36mcom.camp.promotion.service.LocalCacheService[m : get HPromoProductModel from local cache, key = promo_product_11867795771883521_11883019954552833_11873505595359240, res is null false
+2023-01-03 11:30:59.614 [32mINFO [m[http-nio-8999-exec-29] [36mcom.camp.promotion.service.LocalCacheService[m : get HPromoProductModel from local cache, key = promo_product_11867795771883521_11883019954552833_11873505595359240, res is null false
+2023-01-03 11:30:59.614 [32mINFO [m[http-nio-8999-exec-31] [36mcom.camp.promotion.limit.RateLimitAspect[m : rate limit key = PromotionController_createOrder
+2023-01-03 11:30:59.615 [32mINFO [m[http-nio-8999-exec-30] [36mcom.camp.promotion.service.LocalCacheService[m : get HPromoProductModel from local cache, key = promo_product_11867795771883521_11883019954552833_11873505595359240, res is null false
+2023-01-03 11:30:59.628 [32mINFO [m[http-nio-8999-exec-31] [36mcom.camp.promotion.service.LocalCacheService[m : get HPromoProductModel from local cache, key = promo_product_11867795771883521_11883019954552833_11873505595359240, res is null false
+2023-01-03 11:30:59.655 [32mINFO [m[thread-consumer-start] [36mcom.camp.promotion.mq.OrderPullConsumer[m : start consumer msg size = 1
+2023-01-03 11:30:59.679 [32mINFO [m[thread-consumer-start] [36mcom.camp.promotion.mq.OrderPullConsumer[m : start consumer msg size = 1
+2023-01-03 11:30:59.687 [32mINFO [m[http-nio-8999-exec-33] [36mcom.camp.promotion.limit.RateLimitAspect[m : rate limit key = PromotionController_createOrder
+2023-01-03 11:30:59.687 [32mINFO [m[http-nio-8999-exec-34] [36mcom.camp.promotion.limit.RateLimitAspect[m : rate limit key = PromotionController_createOrder
+2023-01-03 11:30:59.687 [32mINFO [m[http-nio-8999-exec-32] [36mcom.camp.promotion.limit.RateLimitAspect[m : rate limit key = PromotionController_createOrder
+2023-01-03 11:30:59.700 [32mINFO [m[http-nio-8999-exec-35] [36mcom.camp.promotion.limit.RateLimitAspect[m : rate limit key = PromotionController_createOrder
+2023-01-03 11:30:59.700 [32mINFO [m[http-nio-8999-exec-32] [36mcom.camp.promotion.service.LocalCacheService[m : get HPromoProductModel from local cache, key = promo_product_11867795771883521_11883019954552833_11873505595359240, res is null false
+2023-01-03 11:30:59.700 [32mINFO [m[http-nio-8999-exec-33] [36mcom.camp.promotion.service.LocalCacheService[m : get HPromoProductModel from local cache, key = promo_product_11867795771883521_11883019954552833_11873505595359240, res is null false
+2023-01-03 11:30:59.700 [32mINFO [m[http-nio-8999-exec-34] [36mcom.camp.promotion.service.LocalCacheService[m : get HPromoProductModel from local cache, key = promo_product_11867795771883521_11883019954552833_11873505595359240, res is null false
+2023-01-03 11:30:59.714 [32mINFO [m[http-nio-8999-exec-35] [36mcom.camp.promotion.service.LocalCacheService[m : get HPromoProductModel from local cache, key = promo_product_11867795771883521_11883019954552833_11873505595359240, res is null false
+2023-01-03 11:30:59.785 [32mINFO [m[http-nio-8999-exec-36] [36mcom.camp.promotion.limit.RateLimitAspect[m : rate limit key = PromotionController_createOrder
+2023-01-03 11:30:59.799 [32mINFO [m[http-nio-8999-exec-36] [36mcom.camp.promotion.service.LocalCacheService[m : get HPromoProductModel from local cache, key = promo_product_11867795771883521_11883019954552833_11873505595359240, res is null false
+2023-01-03 11:30:59.849 [32mINFO [m[http-nio-8999-exec-37] [36mcom.camp.promotion.limit.RateLimitAspect[m : rate limit key = PromotionController_createOrder
+2023-01-03 11:30:59.862 [32mINFO [m[http-nio-8999-exec-37] [36mcom.camp.promotion.service.LocalCacheService[m : get HPromoProductModel from local cache, key = promo_product_11867795771883521_11883019954552833_11873505595359240, res is null false
+2023-01-03 11:30:59.871 [32mINFO [m[http-nio-8999-exec-38] [36mcom.camp.promotion.limit.RateLimitAspect[m : rate limit key = PromotionController_createOrder
+2023-01-03 11:30:59.884 [32mINFO [m[http-nio-8999-exec-38] [36mcom.camp.promotion.service.LocalCacheService[m : get HPromoProductModel from local cache, key = promo_product_11867795771883521_11883019954552833_11873505595359240, res is null false
+2023-01-03 11:30:59.935 [32mINFO [m[http-nio-8999-exec-39] [36mcom.camp.promotion.limit.RateLimitAspect[m : rate limit key = PromotionController_createOrder
+2023-01-03 11:30:59.949 [32mINFO [m[http-nio-8999-exec-39] [36mcom.camp.promotion.service.LocalCacheService[m : get HPromoProductModel from local cache, key = promo_product_11867795771883521_11883019954552833_11873505595359240, res is null false
+2023-01-03 11:30:59.956 [32mINFO [m[http-nio-8999-exec-40] [36mcom.camp.promotion.limit.RateLimitAspect[m : rate limit key = PromotionController_createOrder
+2023-01-03 11:30:59.970 [32mINFO [m[http-nio-8999-exec-40] [36mcom.camp.promotion.service.LocalCacheService[m : get HPromoProductModel from local cache, key = promo_product_11867795771883521_11883019954552833_11873505595359240, res is null false
+2023-01-03 11:30:59.997 [32mINFO [m[thread-consumer-start] [36mcom.camp.promotion.mq.OrderPullConsumer[m : start consumer msg size = 1
+2023-01-03 11:31:00.022 [32mINFO [m[http-nio-8999-exec-41] [36mcom.camp.promotion.limit.RateLimitAspect[m : rate limit key = PromotionController_createOrder
+2023-01-03 11:31:00.037 [32mINFO [m[http-nio-8999-exec-41] [36mcom.camp.promotion.service.LocalCacheService[m : get HPromoProductModel from local cache, key = promo_product_11867795771883521_11883019954552833_11873505595359240, res is null false
+2023-01-03 11:31:00.041 [32mINFO [m[http-nio-8999-exec-42] [36mcom.camp.promotion.limit.RateLimitAspect[m : rate limit key = PromotionController_createOrder
+2023-01-03 11:31:00.055 [32mINFO [m[http-nio-8999-exec-42] [36mcom.camp.promotion.service.LocalCacheService[m : get HPromoProductModel from local cache, key = promo_product_11867795771883521_11883019954552833_11873505595359240, res is null false
+2023-01-03 11:31:00.109 [32mINFO [m[http-nio-8999-exec-43] [36mcom.camp.promotion.limit.RateLimitAspect[m : rate limit key = PromotionController_createOrder
+2023-01-03 11:31:00.122 [32mINFO [m[http-nio-8999-exec-43] [36mcom.camp.promotion.service.LocalCacheService[m : get HPromoProductModel from local cache, key = promo_product_11867795771883521_11883019954552833_11873505595359240, res is null false
+2023-01-03 11:31:00.127 [32mINFO [m[http-nio-8999-exec-44] [36mcom.camp.promotion.limit.RateLimitAspect[m : rate limit key = PromotionController_createOrder
+2023-01-03 11:31:00.140 [32mINFO [m[http-nio-8999-exec-44] [36mcom.camp.promotion.service.LocalCacheService[m : get HPromoProductModel from local cache, key = promo_product_11867795771883521_11883019954552833_11873505595359240, res is null false
+2023-01-03 11:31:00.194 [32mINFO [m[http-nio-8999-exec-45] [36mcom.camp.promotion.limit.RateLimitAspect[m : rate limit key = PromotionController_createOrder
+2023-01-03 11:31:00.209 [32mINFO [m[http-nio-8999-exec-45] [36mcom.camp.promotion.service.LocalCacheService[m : get HPromoProductModel from local cache, key = promo_product_11867795771883521_11883019954552833_11873505595359240, res is null false
+2023-01-03 11:31:00.280 [32mINFO [m[http-nio-8999-exec-46] [36mcom.camp.promotion.limit.RateLimitAspect[m : rate limit key = PromotionController_createOrder
+2023-01-03 11:31:00.294 [32mINFO [m[http-nio-8999-exec-46] [36mcom.camp.promotion.service.LocalCacheService[m : get HPromoProductModel from local cache, key = promo_product_11867795771883521_11883019954552833_11873505595359240, res is null false
+2023-01-03 11:31:00.338 [32mINFO [m[thread-consumer-start] [36mcom.camp.promotion.mq.OrderPullConsumer[m : start consumer msg size = 1
+2023-01-03 11:31:00.346 [32mINFO [m[http-nio-8999-exec-47] [36mcom.camp.promotion.limit.RateLimitAspect[m : rate limit key = PromotionController_createOrder
+2023-01-03 11:31:00.360 [32mINFO [m[http-nio-8999-exec-47] [36mcom.camp.promotion.service.LocalCacheService[m : get HPromoProductModel from local cache, key = promo_product_11867795771883521_11883019954552833_11873505595359240, res is null false
+2023-01-03 11:31:00.365 [32mINFO [m[http-nio-8999-exec-48] [36mcom.camp.promotion.limit.RateLimitAspect[m : rate limit key = PromotionController_createOrder
+2023-01-03 11:31:00.379 [32mINFO [m[http-nio-8999-exec-48] [36mcom.camp.promotion.service.LocalCacheService[m : get HPromoProductModel from local cache, key = promo_product_11867795771883521_11883019954552833_11873505595359240, res is null false
+2023-01-03 11:31:00.423 [32mINFO [m[thread-consumer-start] [36mcom.camp.promotion.mq.OrderPullConsumer[m : start consumer msg size = 1
+2023-01-03 11:31:00.431 [32mINFO [m[http-nio-8999-exec-49] [36mcom.camp.promotion.limit.RateLimitAspect[m : rate limit key = PromotionController_createOrder
+2023-01-03 11:31:00.444 [32mINFO [m[http-nio-8999-exec-49] [36mcom.camp.promotion.service.LocalCacheService[m : get HPromoProductModel from local cache, key = promo_product_11867795771883521_11883019954552833_11873505595359240, res is null false
+2023-01-03 11:31:00.448 [32mINFO [m[http-nio-8999-exec-50] [36mcom.camp.promotion.limit.RateLimitAspect[m : rate limit key = PromotionController_createOrder
+2023-01-03 11:31:00.462 [32mINFO [m[http-nio-8999-exec-50] [36mcom.camp.promotion.service.LocalCacheService[m : get HPromoProductModel from local cache, key = promo_product_11867795771883521_11883019954552833_11873505595359240, res is null false
+2023-01-03 11:31:00.515 [32mINFO [m[http-nio-8999-exec-51] [36mcom.camp.promotion.limit.RateLimitAspect[m : rate limit key = PromotionController_createOrder
+2023-01-03 11:31:00.528 [32mINFO [m[http-nio-8999-exec-51] [36mcom.camp.promotion.service.LocalCacheService[m : get HPromoProductModel from local cache, key = promo_product_11867795771883521_11883019954552833_11873505595359240, res is null false
+2023-01-03 11:31:00.530 [32mINFO [m[http-nio-8999-exec-52] [36mcom.camp.promotion.limit.RateLimitAspect[m : rate limit key = PromotionController_createOrder
+2023-01-03 11:31:00.544 [32mINFO [m[http-nio-8999-exec-52] [36mcom.camp.promotion.service.LocalCacheService[m : get HPromoProductModel from local cache, key = promo_product_11867795771883521_11883019954552833_11873505595359240, res is null false
+2023-01-03 11:31:00.602 [32mINFO [m[http-nio-8999-exec-53] [36mcom.camp.promotion.limit.RateLimitAspect[m : rate limit key = PromotionController_createOrder
+2023-01-03 11:31:00.615 [32mINFO [m[http-nio-8999-exec-53] [36mcom.camp.promotion.service.LocalCacheService[m : get HPromoProductModel from local cache, key = promo_product_11867795771883521_11883019954552833_11873505595359240, res is null false
+2023-01-03 11:31:00.616 [32mINFO [m[http-nio-8999-exec-54] [36mcom.camp.promotion.limit.RateLimitAspect[m : rate limit key = PromotionController_createOrder
+2023-01-03 11:31:00.630 [32mINFO [m[http-nio-8999-exec-54] [36mcom.camp.promotion.service.LocalCacheService[m : get HPromoProductModel from local cache, key = promo_product_11867795771883521_11883019954552833_11873505595359240, res is null false
+2023-01-03 11:31:00.662 [32mINFO [m[thread-consumer-start] [36mcom.camp.promotion.mq.OrderPullConsumer[m : start consumer msg size = 1
+2023-01-03 11:31:00.691 [32mINFO [m[http-nio-8999-exec-55] [36mcom.camp.promotion.limit.RateLimitAspect[m : rate limit key = PromotionController_createOrder
+2023-01-03 11:31:00.704 [32mINFO [m[http-nio-8999-exec-55] [36mcom.camp.promotion.service.LocalCacheService[m : get HPromoProductModel from local cache, key = promo_product_11867795771883521_11883019954552833_11873505595359240, res is null false
+2023-01-03 11:31:00.777 [32mINFO [m[http-nio-8999-exec-56] [36mcom.camp.promotion.limit.RateLimitAspect[m : rate limit key = PromotionController_createOrder
+2023-01-03 11:31:00.790 [32mINFO [m[http-nio-8999-exec-56] [36mcom.camp.promotion.service.LocalCacheService[m : get HPromoProductModel from local cache, key = promo_product_11867795771883521_11883019954552833_11873505595359240, res is null false
+2023-01-03 11:31:00.834 [32mINFO [m[thread-consumer-start] [36mcom.camp.promotion.mq.OrderPullConsumer[m : start consumer msg size = 1
+2023-01-03 11:31:00.846 [32mINFO [m[http-nio-8999-exec-57] [36mcom.camp.promotion.limit.RateLimitAspect[m : rate limit key = PromotionController_createOrder
+2023-01-03 11:31:00.859 [32mINFO [m[http-nio-8999-exec-57] [36mcom.camp.promotion.service.LocalCacheService[m : get HPromoProductModel from local cache, key = promo_product_11867795771883521_11883019954552833_11873505595359240, res is null false
+2023-01-03 11:31:00.861 [32mINFO [m[http-nio-8999-exec-58] [36mcom.camp.promotion.limit.RateLimitAspect[m : rate limit key = PromotionController_createOrder
+2023-01-03 11:31:00.875 [32mINFO [m[http-nio-8999-exec-58] [36mcom.camp.promotion.service.LocalCacheService[m : get HPromoProductModel from local cache, key = promo_product_11867795771883521_11883019954552833_11873505595359240, res is null false
+2023-01-03 11:31:00.932 [32mINFO [m[http-nio-8999-exec-59] [36mcom.camp.promotion.limit.RateLimitAspect[m : rate limit key = PromotionController_createOrder
+2023-01-03 11:31:00.945 [32mINFO [m[http-nio-8999-exec-60] [36mcom.camp.promotion.limit.RateLimitAspect[m : rate limit key = PromotionController_createOrder
+2023-01-03 11:31:00.948 [32mINFO [m[http-nio-8999-exec-59] [36mcom.camp.promotion.service.LocalCacheService[m : get HPromoProductModel from local cache, key = promo_product_11867795771883521_11883019954552833_11873505595359240, res is null false
+2023-01-03 11:31:00.959 [32mINFO [m[http-nio-8999-exec-60] [36mcom.camp.promotion.service.LocalCacheService[m : get HPromoProductModel from local cache, key = promo_product_11867795771883521_11883019954552833_11873505595359240, res is null false
+2023-01-03 11:31:01.020 [32mINFO [m[http-nio-8999-exec-61] [36mcom.camp.promotion.limit.RateLimitAspect[m : rate limit key = PromotionController_createOrder
+2023-01-03 11:31:01.030 [32mINFO [m[http-nio-8999-exec-62] [36mcom.camp.promotion.limit.RateLimitAspect[m : rate limit key = PromotionController_createOrder
+2023-01-03 11:31:01.033 [32mINFO [m[http-nio-8999-exec-61] [36mcom.camp.promotion.service.LocalCacheService[m : get HPromoProductModel from local cache, key = promo_product_11867795771883521_11883019954552833_11873505595359240, res is null false
+2023-01-03 11:31:01.044 [32mINFO [m[http-nio-8999-exec-62] [36mcom.camp.promotion.service.LocalCacheService[m : get HPromoProductModel from local cache, key = promo_product_11867795771883521_11883019954552833_11873505595359240, res is null false
+2023-01-03 11:31:01.104 [32mINFO [m[http-nio-8999-exec-63] [36mcom.camp.promotion.limit.RateLimitAspect[m : rate limit key = PromotionController_createOrder
+2023-01-03 11:31:01.115 [32mINFO [m[http-nio-8999-exec-64] [36mcom.camp.promotion.limit.RateLimitAspect[m : rate limit key = PromotionController_createOrder
+2023-01-03 11:31:01.117 [32mINFO [m[http-nio-8999-exec-63] [36mcom.camp.promotion.service.LocalCacheService[m : get HPromoProductModel from local cache, key = promo_product_11867795771883521_11883019954552833_11873505595359240, res is null false
+2023-01-03 11:31:01.129 [32mINFO [m[http-nio-8999-exec-64] [36mcom.camp.promotion.service.LocalCacheService[m : get HPromoProductModel from local cache, key = promo_product_11867795771883521_11883019954552833_11873505595359240, res is null false
+2023-01-03 11:31:01.188 [32mINFO [m[http-nio-8999-exec-65] [36mcom.camp.promotion.limit.RateLimitAspect[m : rate limit key = PromotionController_createOrder
+2023-01-03 11:31:01.202 [32mINFO [m[http-nio-8999-exec-65] [36mcom.camp.promotion.service.LocalCacheService[m : get HPromoProductModel from local cache, key = promo_product_11867795771883521_11883019954552833_11873505595359240, res is null false
+2023-01-03 11:31:01.275 [32mINFO [m[http-nio-8999-exec-66] [36mcom.camp.promotion.limit.RateLimitAspect[m : rate limit key = PromotionController_createOrder
+2023-01-03 11:31:01.289 [32mINFO [m[http-nio-8999-exec-66] [36mcom.camp.promotion.service.LocalCacheService[m : get HPromoProductModel from local cache, key = promo_product_11867795771883521_11883019954552833_11873505595359240, res is null false
+2023-01-03 11:31:01.348 [32mINFO [m[http-nio-8999-exec-67] [36mcom.camp.promotion.limit.RateLimitAspect[m : rate limit key = PromotionController_createOrder
+2023-01-03 11:31:01.361 [32mINFO [m[http-nio-8999-exec-68] [36mcom.camp.promotion.limit.RateLimitAspect[m : rate limit key = PromotionController_createOrder
+2023-01-03 11:31:01.362 [32mINFO [m[http-nio-8999-exec-67] [36mcom.camp.promotion.service.LocalCacheService[m : get HPromoProductModel from local cache, key = promo_product_11867795771883521_11883019954552833_11873505595359240, res is null false
+2023-01-03 11:31:01.375 [32mINFO [m[http-nio-8999-exec-68] [36mcom.camp.promotion.service.LocalCacheService[m : get HPromoProductModel from local cache, key = promo_product_11867795771883521_11883019954552833_11873505595359240, res is null false
+2023-01-03 11:31:01.407 [32mINFO [m[thread-consumer-start] [36mcom.camp.promotion.mq.OrderPullConsumer[m : start consumer msg size = 1
+2023-01-03 11:31:01.433 [32mINFO [m[http-nio-8999-exec-71] [36mcom.camp.promotion.limit.RateLimitAspect[m : rate limit key = PromotionController_createOrder
+2023-01-03 11:31:01.446 [32mINFO [m[http-nio-8999-exec-72] [36mcom.camp.promotion.limit.RateLimitAspect[m : rate limit key = PromotionController_createOrder
+2023-01-03 11:31:01.446 [32mINFO [m[http-nio-8999-exec-71] [36mcom.camp.promotion.service.LocalCacheService[m : get HPromoProductModel from local cache, key = promo_product_11867795771883521_11883019954552833_11873505595359240, res is null false
+2023-01-03 11:31:01.460 [32mINFO [m[http-nio-8999-exec-72] [36mcom.camp.promotion.service.LocalCacheService[m : get HPromoProductModel from local cache, key = promo_product_11867795771883521_11883019954552833_11873505595359240, res is null false
+2023-01-03 11:31:01.518 [32mINFO [m[http-nio-8999-exec-73] [36mcom.camp.promotion.limit.RateLimitAspect[m : rate limit key = PromotionController_createOrder
+2023-01-03 11:31:01.531 [32mINFO [m[http-nio-8999-exec-73] [36mcom.camp.promotion.service.LocalCacheService[m : get HPromoProductModel from local cache, key = promo_product_11867795771883521_11883019954552833_11873505595359240, res is null false
+2023-01-03 11:31:01.532 [32mINFO [m[http-nio-8999-exec-74] [36mcom.camp.promotion.limit.RateLimitAspect[m : rate limit key = PromotionController_createOrder
+2023-01-03 11:31:01.545 [32mINFO [m[http-nio-8999-exec-74] [36mcom.camp.promotion.service.LocalCacheService[m : get HPromoProductModel from local cache, key = promo_product_11867795771883521_11883019954552833_11873505595359240, res is null false
+2023-01-03 11:31:01.603 [32mINFO [m[http-nio-8999-exec-75] [36mcom.camp.promotion.limit.RateLimitAspect[m : rate limit key = PromotionController_createOrder
+2023-01-03 11:31:01.616 [32mINFO [m[http-nio-8999-exec-75] [36mcom.camp.promotion.service.LocalCacheService[m : get HPromoProductModel from local cache, key = promo_product_11867795771883521_11883019954552833_11873505595359240, res is null false
+2023-01-03 11:31:01.617 [32mINFO [m[http-nio-8999-exec-76] [36mcom.camp.promotion.limit.RateLimitAspect[m : rate limit key = PromotionController_createOrder
+2023-01-03 11:31:01.630 [32mINFO [m[http-nio-8999-exec-76] [36mcom.camp.promotion.service.LocalCacheService[m : get HPromoProductModel from local cache, key = promo_product_11867795771883521_11883019954552833_11873505595359240, res is null false
+2023-01-03 11:31:01.674 [32mINFO [m[thread-consumer-start] [36mcom.camp.promotion.mq.OrderPullConsumer[m : start consumer msg size = 1
+2023-01-03 11:31:01.689 [32mINFO [m[http-nio-8999-exec-77] [36mcom.camp.promotion.limit.RateLimitAspect[m : rate limit key = PromotionController_createOrder
+2023-01-03 11:31:01.702 [32mINFO [m[http-nio-8999-exec-77] [36mcom.camp.promotion.service.LocalCacheService[m : get HPromoProductModel from local cache, key = promo_product_11867795771883521_11883019954552833_11873505595359240, res is null false
+2023-01-03 11:31:01.774 [32mINFO [m[http-nio-8999-exec-78] [36mcom.camp.promotion.limit.RateLimitAspect[m : rate limit key = PromotionController_createOrder
+2023-01-03 11:31:01.787 [32mINFO [m[http-nio-8999-exec-78] [36mcom.camp.promotion.service.LocalCacheService[m : get HPromoProductModel from local cache, key = promo_product_11867795771883521_11883019954552833_11873505595359240, res is null false
+2023-01-03 11:31:01.847 [32mINFO [m[http-nio-8999-exec-79] [36mcom.camp.promotion.limit.RateLimitAspect[m : rate limit key = PromotionController_createOrder
+2023-01-03 11:31:01.858 [32mINFO [m[http-nio-8999-exec-80] [36mcom.camp.promotion.limit.RateLimitAspect[m : rate limit key = PromotionController_createOrder
+2023-01-03 11:31:01.861 [32mINFO [m[http-nio-8999-exec-79] [36mcom.camp.promotion.service.LocalCacheService[m : get HPromoProductModel from local cache, key = promo_product_11867795771883521_11883019954552833_11873505595359240, res is null false
+2023-01-03 11:31:01.871 [32mINFO [m[http-nio-8999-exec-80] [36mcom.camp.promotion.service.LocalCacheService[m : get HPromoProductModel from local cache, key = promo_product_11867795771883521_11883019954552833_11873505595359240, res is null false
+2023-01-03 11:31:01.903 [32mINFO [m[thread-consumer-start] [36mcom.camp.promotion.mq.OrderPullConsumer[m : start consumer msg size = 1
+2023-01-03 11:31:01.929 [32mINFO [m[http-nio-8999-exec-81] [36mcom.camp.promotion.limit.RateLimitAspect[m : rate limit key = PromotionController_createOrder
+2023-01-03 11:31:01.942 [32mINFO [m[http-nio-8999-exec-81] [36mcom.camp.promotion.service.LocalCacheService[m : get HPromoProductModel from local cache, key = promo_product_11867795771883521_11883019954552833_11873505595359240, res is null false
+2023-01-03 11:31:01.942 [32mINFO [m[http-nio-8999-exec-82] [36mcom.camp.promotion.limit.RateLimitAspect[m : rate limit key = PromotionController_createOrder
+2023-01-03 11:31:01.955 [32mINFO [m[http-nio-8999-exec-82] [36mcom.camp.promotion.service.LocalCacheService[m : get HPromoProductModel from local cache, key = promo_product_11867795771883521_11883019954552833_11873505595359240, res is null false
+2023-01-03 11:31:01.997 [32mINFO [m[thread-consumer-start] [36mcom.camp.promotion.mq.OrderPullConsumer[m : start consumer msg size = 1
+2023-01-03 11:31:02.013 [32mINFO [m[http-nio-8999-exec-83] [36mcom.camp.promotion.limit.RateLimitAspect[m : rate limit key = PromotionController_createOrder
+2023-01-03 11:31:02.026 [32mINFO [m[http-nio-8999-exec-83] [36mcom.camp.promotion.service.LocalCacheService[m : get HPromoProductModel from local cache, key = promo_product_11867795771883521_11883019954552833_11873505595359240, res is null false
+2023-01-03 11:31:02.027 [32mINFO [m[http-nio-8999-exec-84] [36mcom.camp.promotion.limit.RateLimitAspect[m : rate limit key = PromotionController_createOrder
+2023-01-03 11:31:02.040 [32mINFO [m[http-nio-8999-exec-84] [36mcom.camp.promotion.service.LocalCacheService[m : get HPromoProductModel from local cache, key = promo_product_11867795771883521_11883019954552833_11873505595359240, res is null false
+2023-01-03 11:31:02.087 [32mINFO [m[thread-consumer-start] [36mcom.camp.promotion.mq.OrderPullConsumer[m : start consumer msg size = 1
+2023-01-03 11:31:02.098 [32mINFO [m[http-nio-8999-exec-85] [36mcom.camp.promotion.limit.RateLimitAspect[m : rate limit key = PromotionController_createOrder
+2023-01-03 11:31:02.111 [32mINFO [m[http-nio-8999-exec-85] [36mcom.camp.promotion.service.LocalCacheService[m : get HPromoProductModel from local cache, key = promo_product_11867795771883521_11883019954552833_11873505595359240, res is null false
+2023-01-03 11:31:02.113 [32mINFO [m[http-nio-8999-exec-86] [36mcom.camp.promotion.limit.RateLimitAspect[m : rate limit key = PromotionController_createOrder
+2023-01-03 11:31:02.126 [32mINFO [m[http-nio-8999-exec-86] [36mcom.camp.promotion.service.LocalCacheService[m : get HPromoProductModel from local cache, key = promo_product_11867795771883521_11883019954552833_11873505595359240, res is null false
+2023-01-03 11:31:02.161 [32mINFO [m[thread-consumer-start] [36mcom.camp.promotion.mq.OrderPullConsumer[m : start consumer msg size = 1
+2023-01-03 11:31:02.182 [32mINFO [m[http-nio-8999-exec-87] [36mcom.camp.promotion.limit.RateLimitAspect[m : rate limit key = PromotionController_createOrder
+2023-01-03 11:31:02.196 [32mINFO [m[http-nio-8999-exec-87] [36mcom.camp.promotion.service.LocalCacheService[m : get HPromoProductModel from local cache, key = promo_product_11867795771883521_11883019954552833_11873505595359240, res is null false
+2023-01-03 11:31:02.239 [32mINFO [m[thread-consumer-start] [36mcom.camp.promotion.mq.OrderPullConsumer[m : start consumer msg size = 1
+2023-01-03 11:31:02.269 [32mINFO [m[http-nio-8999-exec-88] [36mcom.camp.promotion.limit.RateLimitAspect[m : rate limit key = PromotionController_createOrder
+2023-01-03 11:31:02.282 [32mINFO [m[http-nio-8999-exec-88] [36mcom.camp.promotion.service.LocalCacheService[m : get HPromoProductModel from local cache, key = promo_product_11867795771883521_11883019954552833_11873505595359240, res is null false
+2023-01-03 11:31:02.347 [32mINFO [m[http-nio-8999-exec-89] [36mcom.camp.promotion.limit.RateLimitAspect[m : rate limit key = PromotionController_createOrder
+2023-01-03 11:31:02.352 [32mINFO [m[http-nio-8999-exec-90] [36mcom.camp.promotion.limit.RateLimitAspect[m : rate limit key = PromotionController_createOrder
+2023-01-03 11:31:02.361 [32mINFO [m[http-nio-8999-exec-89] [36mcom.camp.promotion.service.LocalCacheService[m : get HPromoProductModel from local cache, key = promo_product_11867795771883521_11883019954552833_11873505595359240, res is null false
+2023-01-03 11:31:02.366 [32mINFO [m[http-nio-8999-exec-90] [36mcom.camp.promotion.service.LocalCacheService[m : get HPromoProductModel from local cache, key = promo_product_11867795771883521_11883019954552833_11873505595359240, res is null false
+2023-01-03 11:31:02.431 [32mINFO [m[http-nio-8999-exec-91] [36mcom.camp.promotion.limit.RateLimitAspect[m : rate limit key = PromotionController_createOrder
+2023-01-03 11:31:02.435 [32mINFO [m[http-nio-8999-exec-92] [36mcom.camp.promotion.limit.RateLimitAspect[m : rate limit key = PromotionController_createOrder
+2023-01-03 11:31:02.444 [32mINFO [m[http-nio-8999-exec-91] [36mcom.camp.promotion.service.LocalCacheService[m : get HPromoProductModel from local cache, key = promo_product_11867795771883521_11883019954552833_11873505595359240, res is null false
+2023-01-03 11:31:02.448 [32mINFO [m[http-nio-8999-exec-92] [36mcom.camp.promotion.service.LocalCacheService[m : get HPromoProductModel from local cache, key = promo_product_11867795771883521_11883019954552833_11873505595359240, res is null false
+2023-01-03 11:31:02.491 [32mINFO [m[thread-consumer-start] [36mcom.camp.promotion.mq.OrderPullConsumer[m : start consumer msg size = 1
+2023-01-03 11:31:02.514 [32mINFO [m[http-nio-8999-exec-93] [36mcom.camp.promotion.limit.RateLimitAspect[m : rate limit key = PromotionController_createOrder
+2023-01-03 11:31:02.518 [32mINFO [m[http-nio-8999-exec-94] [36mcom.camp.promotion.limit.RateLimitAspect[m : rate limit key = PromotionController_createOrder
+2023-01-03 11:31:02.527 [32mINFO [m[http-nio-8999-exec-93] [36mcom.camp.promotion.service.LocalCacheService[m : get HPromoProductModel from local cache, key = promo_product_11867795771883521_11883019954552833_11873505595359240, res is null false
+2023-01-03 11:31:02.531 [32mINFO [m[http-nio-8999-exec-94] [36mcom.camp.promotion.service.LocalCacheService[m : get HPromoProductModel from local cache, key = promo_product_11867795771883521_11883019954552833_11873505595359240, res is null false
+2023-01-03 11:31:02.598 [32mINFO [m[http-nio-8999-exec-95] [36mcom.camp.promotion.limit.RateLimitAspect[m : rate limit key = PromotionController_createOrder
+2023-01-03 11:31:02.603 [32mINFO [m[http-nio-8999-exec-96] [36mcom.camp.promotion.limit.RateLimitAspect[m : rate limit key = PromotionController_createOrder
+2023-01-03 11:31:02.611 [32mINFO [m[http-nio-8999-exec-95] [36mcom.camp.promotion.service.LocalCacheService[m : get HPromoProductModel from local cache, key = promo_product_11867795771883521_11883019954552833_11873505595359240, res is null false
+2023-01-03 11:31:02.617 [32mINFO [m[http-nio-8999-exec-96] [36mcom.camp.promotion.service.LocalCacheService[m : get HPromoProductModel from local cache, key = promo_product_11867795771883521_11883019954552833_11873505595359240, res is null false
+2023-01-03 11:31:02.684 [32mINFO [m[http-nio-8999-exec-97] [36mcom.camp.promotion.limit.RateLimitAspect[m : rate limit key = PromotionController_createOrder
+2023-01-03 11:31:02.698 [32mINFO [m[http-nio-8999-exec-97] [36mcom.camp.promotion.service.LocalCacheService[m : get HPromoProductModel from local cache, key = promo_product_11867795771883521_11883019954552833_11873505595359240, res is null false
+2023-01-03 11:31:02.770 [32mINFO [m[http-nio-8999-exec-98] [36mcom.camp.promotion.limit.RateLimitAspect[m : rate limit key = PromotionController_createOrder
+2023-01-03 11:31:02.784 [32mINFO [m[http-nio-8999-exec-98] [36mcom.camp.promotion.service.LocalCacheService[m : get HPromoProductModel from local cache, key = promo_product_11867795771883521_11883019954552833_11873505595359240, res is null false
+2023-01-03 11:31:02.828 [32mINFO [m[thread-consumer-start] [36mcom.camp.promotion.mq.OrderPullConsumer[m : start consumer msg size = 1
+2023-01-03 11:31:02.857 [32mINFO [m[http-nio-8999-exec-99] [36mcom.camp.promotion.limit.RateLimitAspect[m : rate limit key = PromotionController_createOrder
+2023-01-03 11:31:02.871 [32mINFO [m[http-nio-8999-exec-99] [36mcom.camp.promotion.service.LocalCacheService[m : get HPromoProductModel from local cache, key = promo_product_11867795771883521_11883019954552833_11873505595359240, res is null false
+2023-01-03 11:31:02.944 [32mINFO [m[http-nio-8999-exec-100] [36mcom.camp.promotion.limit.RateLimitAspect[m : rate limit key = PromotionController_createOrder
+2023-01-03 11:31:02.957 [32mINFO [m[http-nio-8999-exec-100] [36mcom.camp.promotion.service.LocalCacheService[m : get HPromoProductModel from local cache, key = promo_product_11867795771883521_11883019954552833_11873505595359240, res is null false
+2023-01-03 11:31:03.032 [32mINFO [m[http-nio-8999-exec-2] [36mcom.camp.promotion.limit.RateLimitAspect[m : rate limit key = PromotionController_createOrder
+2023-01-03 11:31:03.045 [32mINFO [m[http-nio-8999-exec-2] [36mcom.camp.promotion.service.LocalCacheService[m : get HPromoProductModel from local cache, key = promo_product_11867795771883521_11883019954552833_11873505595359240, res is null false
+2023-01-03 11:31:03.120 [32mINFO [m[http-nio-8999-exec-3] [36mcom.camp.promotion.limit.RateLimitAspect[m : rate limit key = PromotionController_createOrder
+2023-01-03 11:31:03.147 [32mINFO [m[http-nio-8999-exec-3] [36mcom.camp.promotion.service.LocalCacheService[m : get HPromoProductModel from local cache, key = promo_product_11867795771883521_11883019954552833_11873505595359240, res is null false
+2023-01-03 11:31:03.181 [1;31mERROR[m[http-nio-8999-exec-3] [36mcom.camp.promotion.service.impl.HPromoOrderServiceImpl[m : promo activity product out of stock, params = {"addressId":12289069593657345,"promoId":11867795771883521,"quantity":1,"shippingAddress":"????","skuId":11883019954552833,"spuId":11873505595359240,"userId":123456}
+2023-01-03 11:31:03.234 [1;31mERROR[m[http-nio-8999-exec-3] [36morg.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet][m : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is BizException{errorCode=1008, errorMsg='OUT_OF_STOCK'}] with root cause
+com.camp.promotion.common.BizException: OUT_OF_STOCK
+	at com.camp.promotion.service.impl.HPromoOrderServiceImpl.createOrder(HPromoOrderServiceImpl.java:68) ~[classes/:?]
+	at com.camp.promotion.service.impl.HPromoOrderServiceImpl$$FastClassBySpringCGLIB$$6cc922f8.invoke(<generated>) ~[classes/:?]
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218) ~[spring-core-5.3.24.jar:5.3.24]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:793) ~[spring-aop-5.3.24.jar:5.3.24]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-5.3.24.jar:5.3.24]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763) ~[spring-aop-5.3.24.jar:5.3.24]
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123) ~[spring-tx-5.3.24.jar:5.3.24]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:388) ~[spring-tx-5.3.24.jar:5.3.24]
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119) ~[spring-tx-5.3.24.jar:5.3.24]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.24.jar:5.3.24]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763) ~[spring-aop-5.3.24.jar:5.3.24]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:708) ~[spring-aop-5.3.24.jar:5.3.24]
+	at com.camp.promotion.service.impl.HPromoOrderServiceImpl$$EnhancerBySpringCGLIB$$281e9407.createOrder(<generated>) ~[classes/:?]
+	at com.camp.promotion.controller.PromotionController.createOrder(PromotionController.java:94) ~[classes/:?]
+	at com.camp.promotion.controller.PromotionController$$FastClassBySpringCGLIB$$ab77c0f8.invoke(<generated>) ~[classes/:?]
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218) ~[spring-core-5.3.24.jar:5.3.24]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:793) ~[spring-aop-5.3.24.jar:5.3.24]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-5.3.24.jar:5.3.24]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763) ~[spring-aop-5.3.24.jar:5.3.24]
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:89) ~[spring-aop-5.3.24.jar:5.3.24]
+	at com.camp.promotion.limit.RateLimitAspect.around(RateLimitAspect.java:50) ~[classes/:?]
+	at jdk.internal.reflect.GeneratedMethodAccessor30.invoke(Unknown Source) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:634) ~[spring-aop-5.3.24.jar:5.3.24]
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:624) ~[spring-aop-5.3.24.jar:5.3.24]
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:72) ~[spring-aop-5.3.24.jar:5.3.24]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:175) ~[spring-aop-5.3.24.jar:5.3.24]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763) ~[spring-aop-5.3.24.jar:5.3.24]
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97) ~[spring-aop-5.3.24.jar:5.3.24]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.24.jar:5.3.24]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763) ~[spring-aop-5.3.24.jar:5.3.24]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:708) ~[spring-aop-5.3.24.jar:5.3.24]
+	at com.camp.promotion.controller.PromotionController$$EnhancerBySpringCGLIB$$84535c34.createOrder(<generated>) ~[classes/:?]
+	at jdk.internal.reflect.GeneratedMethodAccessor32.invoke(Unknown Source) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205) ~[spring-web-5.3.24.jar:5.3.24]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150) ~[spring-web-5.3.24.jar:5.3.24]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117) ~[spring-webmvc-5.3.24.jar:5.3.24]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895) ~[spring-webmvc-5.3.24.jar:5.3.24]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808) ~[spring-webmvc-5.3.24.jar:5.3.24]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.3.24.jar:5.3.24]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1071) ~[spring-webmvc-5.3.24.jar:5.3.24]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:964) ~[spring-webmvc-5.3.24.jar:5.3.24]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.3.24.jar:5.3.24]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909) ~[spring-webmvc-5.3.24.jar:5.3.24]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:696) ~[tomcat-embed-core-9.0.69.jar:4.0.FR]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.3.24.jar:5.3.24]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:779) ~[tomcat-embed-core-9.0.69.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227) ~[tomcat-embed-core-9.0.69.jar:9.0.69]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.69.jar:9.0.69]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.69.jar:9.0.69]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.69.jar:9.0.69]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.69.jar:9.0.69]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.24.jar:5.3.24]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.24.jar:5.3.24]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.69.jar:9.0.69]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.69.jar:9.0.69]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.3.24.jar:5.3.24]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.24.jar:5.3.24]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.69.jar:9.0.69]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.69.jar:9.0.69]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.24.jar:5.3.24]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.24.jar:5.3.24]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.69.jar:9.0.69]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.69.jar:9.0.69]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:177) ~[tomcat-embed-core-9.0.69.jar:9.0.69]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) ~[tomcat-embed-core-9.0.69.jar:9.0.69]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541) ~[tomcat-embed-core-9.0.69.jar:9.0.69]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135) ~[tomcat-embed-core-9.0.69.jar:9.0.69]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.69.jar:9.0.69]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-9.0.69.jar:9.0.69]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360) ~[tomcat-embed-core-9.0.69.jar:9.0.69]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399) ~[tomcat-embed-core-9.0.69.jar:9.0.69]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.69.jar:9.0.69]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:891) ~[tomcat-embed-core-9.0.69.jar:9.0.69]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1784) ~[tomcat-embed-core-9.0.69.jar:9.0.69]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.69.jar:9.0.69]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-9.0.69.jar:9.0.69]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-9.0.69.jar:9.0.69]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.69.jar:9.0.69]
+	at java.lang.Thread.run(Thread.java:834) ~[?:?]
+2023-01-03 11:34:16.422 [32mINFO [m[Thread-4] [36mcom.camp.promotion.mq.OrderPullConsumer[m : stop consumer!
+2023-01-03 11:34:18.585 [32mINFO [m[SpringApplicationShutdownHook] [36mcom.zaxxer.hikari.HikariDataSource[m : h_promotion - Shutdown initiated...
+2023-01-03 11:34:18.593 [32mINFO [m[SpringApplicationShutdownHook] [36mcom.zaxxer.hikari.HikariDataSource[m : h_promotion - Shutdown completed.
